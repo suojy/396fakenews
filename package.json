@@ -1,10 +1,13 @@
 {
   "name": "fakenews",
   "version": "1.0.0",
+  "scripts": {
+    "start": "idyll index.idl --template ./_index.html --defaultComponents ./components/default --css styles.css --layout blog --theme idyll --spellcheck --watch",
+    "build": "idyll index.idl --template ./_index.html --defaultComponents ./components/default --css styles.css --layout blog --theme idyll; cp -r {images,fonts} build/;",
+    "deploy": "npm run build && cp -r ./build/* ../build/a-walk-on-the-idyll-side/ && gh-pages -d ../build"
+  },
   "license": "MIT",
   "idyll": {
-    "theme": "default",
-    "layout": "centered",
     "css": "styles.css",
     "authorView": false
   },
