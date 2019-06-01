@@ -12,7 +12,7 @@
 [/div]
 
 [div className:"section1"]
-component goes here: define your own
+[Section1 /]
 [/div]
 
 [div className:"section2"]
