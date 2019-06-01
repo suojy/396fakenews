@@ -206,11 +206,7 @@ pre {
   max-width: 1000px;
   margin: 0 auto;
 }
-.section1 {
-  min-height: 500px;
-  max-width: 1000px;
-  margin: 0 auto;
-}
+
 
 .idyll-text-container {
   max-width: 100%;
@@ -561,4 +557,60 @@ h1 {
     top: 50%;
     padding: 3rem;
 }
+}
+
+/*section1*/
+.section1 {
+  min-height: 500px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.card{
+  -webkit-box-shadow: 8px -8px 0 0 rgba(253, 77, 105, 1);
+  box-shadow: 8px -8px 0 0 rgba(253, 77, 105, 1);
+  max-width: 400px;
+  max-height: 400px;
+  overflow: auto;
+  padding: 30px;
+  background-color: #fff;
+  background-color: white;
+  color:#000;
+  margin: 0 auto;
+  margin-top:6rem;
+}
+.btns{
+  text-align: center;
+}
+.choice-btn-t,.choice-btn-f,.choice-btn-restart,.choice-btn-next{
+  font-weight: 500;
+  
+  border: none;
+  border-radius: 0px;
+  text-align: center;
+  margin-right: 10px;
+  padding: .75em 1em;
+  font-size: 15px;
+  line-height: 1;
+  -webkit-transition: background-color 250ms;
+  -o-transition: background-color 250ms;
+  transition: background-color 250ms;
+  font-family: "Kaushan Script", cursive;
+}
+.choice-btn-next{
+  background-color: #fffe54;
+  color: #282828;
+}
+.choice-btn-restart{
+  background-color: #7b3af5;
+  color: #fff;
+}
+.choice-btn-f{
+  background-color: #FD4D69;
+  color:#fff;
+  
+}
+
+.choice-btn-t{
+  color: #282828;
+  background-color: #90FCFD;
 }

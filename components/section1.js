@@ -72,18 +72,14 @@ componentDidMount(){
    
     return (
       <div>
-      
-      <div>
-      <div>
-
-      <div >
+      <div className={"content-main"}>
         <h5>{this.state.news[this.state.n].title}</h5>
         <p>{this.state.news[this.state.n].article}</p>
         <p><small>source:{this.state.news[this.state.n].source}</small></p>
       </div>
-      </div>
-      <button onClick={()=>this.setAnswer('true')}>True</button>
-      <button onClick={()=>this.setAnswer('false')}>False</button>
+      <div className={"btns"}>
+      <button className={"choice-btn-t"} onClick={()=>this.setAnswer('true')}>True</button>
+      <button className={"choice-btn-f"} onClick={()=>this.setAnswer('false')}>False</button>
       </div>
       </div>
       
@@ -101,10 +97,10 @@ componentDidMount(){
          <h5>Source:{this.state.news[this.state.n].source}</h5>
          <p>{this.state.news[this.state.n].explain}</p>
          </div>
-         <div>
+         <div className={"btns"}>
          {this.state.n===1?
-             <button onClick={()=>this.reStart()} >Restart</button>
-             : <button onClick={()=>this.nextNews()} >Next</button>}
+             <button className={"choice-btn-restart"} onClick={()=>this.reStart()} >Restart</button>
+             : <button className={"choice-btn-next"}  onClick={()=>this.nextNews()} >Next</button>}
          
          </div>
          </div>
@@ -116,10 +112,10 @@ componentDidMount(){
              <h5>Source:{this.state.news[this.state.n].source}</h5>
              <p >{this.state.news[this.state.n].explain}</p>
          </div>
-         <div>
+         <div className={"btns"}>
          {this.state.n===1?
-             <button onClick={()=>this.reStart()} >Restart</button>
-             : <button onClick={()=>this.nextNews()} >Next</button>}
+             <button className={"choice-btn-restart"} onClick={()=>this.reStart()} >Restart</button>
+             : <button className={"choice-btn-next"} onClick={()=>this.nextNews()} >Next</button>}
          </div>
          </div>
       </div>}
@@ -130,11 +126,11 @@ componentDidMount(){
   render() {
     
     return (
-        <div>
-        <div>
+        <div className={"card"}>
+        <div className={"score"}>
         <p>score:{this.state.score}</p>
         </div>
-        <div>
+        <div className={"card-content"}>
         {this.state.result==="" ? this.renderNews():this.renderResult() }
         </div>
         </div>  
