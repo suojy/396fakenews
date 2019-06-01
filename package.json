@@ -1,20 +1,23 @@
 {
   "name": "fakenews",
   "version": "1.0.0",
-  "scripts": {
-    "start": "idyll index.idl --template ./_index.html --defaultComponents ./components/default --css styles.css --layout blog --theme idyll --spellcheck --watch",
-    "build": "idyll index.idl --template ./_index.html --defaultComponents ./components/default --css styles.css --layout blog --theme idyll; cp -r {images,fonts} build/;",
-    "deploy": "npm run build && cp -r ./build/* ../build/a-walk-on-the-idyll-side/ && gh-pages -d ../build"
-  },
   "license": "MIT",
   "idyll": {
+    "layout": "blog",
     "css": "styles.css",
+    "googleFonts": [
+      "Nanum Myeongjo",
+      "Anton",
+      "Kaushan Script"
+    ],
     "authorView": false
   },
   "dependencies": {
+    "d3": "^4.0.0",
     "idyll": "^4.0.0",
     "idyll-d3-component": "^2.0.0",
-    "d3": "^4.0.0"
+    "react-transition-group": "^4.1.0",
+    "react-window-size": "^1.2.2"
   },
   "devDependencies": {
     "gh-pages": "^0.12.0"

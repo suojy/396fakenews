@@ -1,14 +1,18 @@
 [meta title:"Fake News" description:"Exploring new ways to create interactive documents" /]
 
+[div className:"header-section"]
+[stickers][/stickers]
+[div className:"headerimg"]
+![example](./static/images/headerimg.png)
+[/div]
+
+## Fake it till you make it
+# HOW TO FAKE NEWS
+### By: Lingyun Li, Jiayi Suo, Jingyan Zhang
+[/div]
+
 [div className:"section1"]
-[Header
-  title:"Fake News"
-  subtitle:"Exploring new ways to recognize fake news"
-  author:"Lingyun Li, Jiayi Suo, Jingyan Zhang"/]
-
 component goes here: define your own
-
-
 [/div]
 
 [div className:"section2"]
@@ -18,7 +22,7 @@ wordcloud  here
 
 [aside className:"chart"]
 
-[Chart type:"scatter" randomSeed:randomSeed /]
+[CustomD3Component  /]
 
 [/aside]
 [/div]
