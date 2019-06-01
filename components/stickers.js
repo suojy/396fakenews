@@ -75,7 +75,7 @@ class Stickers extends React.Component {
               className={"fade-transition fade-" + status}
               style={{
                 backgroundColor: random_color,
-                color: index==3||index==4?'#000':'#fff',
+                color: index===3||index===4?'#000':'#fff',
                 position: "absolute",
                 left: posx + "px",
                 top: posy + "px"
