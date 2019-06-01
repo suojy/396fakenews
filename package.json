@@ -16,6 +16,8 @@
     "d3": "^4.0.0",
     "idyll": "^4.0.0",
     "idyll-d3-component": "^2.0.0",
+    "react-d3-speedometer": "^0.5.5",
+    "react-gauge-chart": "^0.1.7",
     "react-transition-group": "^4.1.0",
     "react-window-size": "^1.2.2"
   },

@@ -22,13 +22,13 @@ wordcloud  here
 
 [aside className:"chart"]
 
-[CustomD3Component  /]
+[barchart  /]
 
 [/aside]
 [/div]
 
 [div className:"section3"]
-component goes here: define your own
+[sectionthree /]
 
 
 [/div]
