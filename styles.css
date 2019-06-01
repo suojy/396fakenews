@@ -1,21 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Fira+Mono:400,500,700|Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i|Montserrat');
+@import url("https://fonts.googleapis.com/css?family=Archivo+Black|Fira+Mono:400,500,700|Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i|Montserrat");
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   background-color: #242934;
-  color:#fff;
+  color: #fff;
 }
-img{
-  background-color: #242934
+img {
+  background-color: #242934;
 }
 .hed {
-  font-family: 'Archivo Black', sans-serif;
+  font-family: "Archivo Black", sans-serif;
 }
 
 .byline {
-  font-family: 'Fira Mono', monospace;
+  font-family: "Fira Mono", monospace;
 }
-
 
 .logo-lockup {
   display: block;
@@ -32,7 +31,7 @@ img{
 .logo-lockup a .logo {
   width: 60px;
   height: 60px;
-  background: #EAE7D6;
+  background: #eae7d6;
 }
 
 .logo-lockup a small {
@@ -47,10 +46,9 @@ img{
   left: -30px;
   position: fixed;
   z-index: -1;
-  transition: all .25s ease-in-out;
+  transition: all 0.25s ease-in-out;
   color: #7b3af5;
 }
-
 
 .hed {
   width: 100%;
@@ -73,7 +71,6 @@ img{
   left: 62px;
   top: -25px;
 }
-
 
 .aside.title {
   top: -200px;
@@ -123,14 +120,13 @@ small span {
   text-align: center;
 }
 
-input[type=range] {
+input[type="range"] {
   margin: 0 10px;
 }
 
 button {
   cursor: pointer;
 }
-
 
 tspan {
   font-family: Verdana;
@@ -142,7 +138,7 @@ input {
 }
 
 thead {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: bold;
   padding: 10px;
   color: black;
@@ -164,7 +160,7 @@ table {
 td {
   padding: 10px 10px;
   font-size: 12px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   vertical-align: top;
   max-width: 75%;
 }
@@ -181,12 +177,12 @@ tr.selected {
   background-color: #ccc;
 }
 td.number {
-  font-family: 'Fira Mono', monospace;
+  font-family: "Fira Mono", monospace;
   text-align: right;
 }
 
 tspan {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 12px;
 }
 
@@ -195,7 +191,7 @@ pre {
   overflow-x: auto;
   padding: 0.5em;
   color: #333;
-  background: #EAE7D6;
+  background: #eae7d6;
 }
 
 .idyll-root a {
@@ -205,85 +201,84 @@ pre {
   box-shadow: none;
   transition: color 0.25s;
 }
-.header-section{
+.header-section {
   min-height: 500px;
   max-width: 1000px;
   margin: 0 auto;
 }
-.section1{
+.section1 {
   min-height: 500px;
   max-width: 1000px;
   margin: 0 auto;
 }
 
-.idyll-text-container{
+.idyll-text-container {
   max-width: 100%;
-  margin:0 50px;
+  margin: 0 50px;
 }
-.headerimg{
+.headerimg {
   min-height: 620px;
 }
-h3{
+h3 {
   padding: 0 0 0 0;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  border-bottom:none;
+  border-bottom: none;
   color: #fff;
-  font-family: 'Nanum Myeongjo', sans-serif;
+  font-family: "Nanum Myeongjo", sans-serif;
 }
-h2{
+h2 {
   padding: 0 0 0 0;
   font-size: 3.2rem;
   font-weight: 200;
   text-align: center;
-  border-bottom:none;
+  border-bottom: none;
   color: #f6f6f6;
-  font-family: 'Kaushan Script', cursive;
+  font-family: "Kaushan Script", cursive;
 }
-h1{
+h1 {
   font-size: 5.65rem;
   padding: 10px 0;
   text-align: center;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
-  color: #E93D58;
-  font-family: 'Anton', sans-serif;
-
+  color: #e93d58;
+  font-family: "Anton", sans-serif;
 }
 
-.fade-transition{
+.fade-transition {
   padding: 10px;
-  color:#fff;
+  color: #fff;
   text-decoration: none;
   list-style: none;
   font-size: 1.8rem;
   font-weight: 400;
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   text-transform: uppercase;
-
 }
 .fade-entered,
-.fade-exited{
+.fade-exited {
   transition: opacity 2s;
-  opacity: 0 ;
+  opacity: 0;
 }
 
 /* section 3*/
-.section3{
+.section3 {
+  margin-top: 10rem;
   min-height: 500px;
 }
 
-.section3-container{
+.section3-container {
   padding: 2em;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
-.text-card{
-  -webkit-box-shadow: -8px 8px 0 0 rgba(144,252,253,.8);
-  box-shadow: -8px 8px 0 0 rgba(144,252,253,.8);
+.text-card {
+  -webkit-box-shadow: -8px 8px 0 0 rgba(144, 252, 253, 0.8);
+  box-shadow: -8px 8px 0 0 rgba(144, 252, 253, 0.8);
   max-width: 400px;
   padding: 40px;
   background-color: #fff;
@@ -291,17 +286,17 @@ h1{
   color: #000;
 }
 
-.choose{
+.choose {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin: 24px 0;
 }
-.choose button{
+.choose button {
   font-size: 20px;
   background-color: transparent;
-  color:#FFFE54;
-  font-family: 'Nanum Myeongjo', sans-serif;
+  color: #fffe54;
+  font-family: "Nanum Myeongjo", sans-serif;
   border: none;
   word-wrap: normal;
   max-width: 180px;
@@ -326,49 +321,244 @@ h1{
 }
 
 /*section2*/
-.section2{
-  display: flex;
-  flex-direction: row;
-  min-height: 600px;
+.section2 {
 }
 
-
-.left{
+.left {
   min-width: 600px;
-  margin-left: 100px;
+  margin-right: 60px;
 }
 
 .line {
-  fill:none;
+  fill: none;
   stroke: #7b3af5;
   stroke-width: 4px;
 }
 
-.myaxis line{
+.myaxis line {
   stroke: #fff;
 }
 
-.myaxis path{
+.myaxis path {
   stroke: #fff;
 }
 
-.myaxis text{
+.myaxis text {
   fill: white;
   font-size: 12px;
-  font-family: 'Nanum Myeongjo', sans-serif;
-}  
+  font-family: "Nanum Myeongjo", sans-serif;
+}
 
-.myaxis_y line{
+.myaxis_y line {
   stroke: #fff;
 }
 
-.myaxis_y path{
+.myaxis_y path {
   stroke: #242934;
 }
 
-.myaxis_y text{
+.myaxis_y text {
   fill: white;
   font-size: 12px;
-  font-family: 'Nanum Myeongjo', sans-serif;
-}  
+  font-family: "Nanum Myeongjo", sans-serif;
+}
 
+.word-cloud text {
+  font-family: "Nanum Myeongjo", sans-serif;
+  fill: #f6f6f6;
+  cursor: pointer;
+}
+
+.word-cloud .clickedWord {
+  fill: #fffe54;
+  font-family: "Anton", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  pointer-events: none;
+}
+
+.section_2 {
+  display: flex;
+  flex-direction: row;
+  min-height: 500px;
+}
+
+.word-cloud text:hover {
+  fill: #f1f0a8;
+}
+.center {
+  width: 1000px;
+  margin: 0 auto;
+}
+.examples {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+@media only screen and (min-width: 60em) {
+  .example_content {
+    display: block;
+    width: 33.33%;
+  }
+}
+
+.example_content:hover {
+  background: #fff;
+  -webkit-box-shadow: -4px 4px 0 0 rgba(144, 252, 253, 0.8);
+  box-shadow: -4px 4px 0 0 rgba(144, 252, 253, 0.8);
+}
+
+.example_content:hover p{
+  color: #000;
+}
+
+
+.example_content {
+  max-width: 25rem;
+  border-radius: 3px;
+  padding: .75rem;
+  cursor: pointer;
+}
+.example_title, .example_footer{
+  font-style: italic;
+}
+.example_content p {
+  margin: 0;
+  margin-bottom: 1em;
+  font-family: "Nanum Myeongjo", sans-serif;
+}
+
+.example_content .highlight {
+  display: inline;
+  color: #000;
+  background-color: #fffe54;
+  -webkit-box-shadow: 4px 0 0 #fffe54, -4px 0 0 #fffe54;
+  box-shadow: 4px 0 0 #fffe54, -4px 0 0 #fffe54;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.example_content .example_short a {
+  font-weight: 400;
+  margin-left: 6px;
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
+}
+
+.example_content:hover .example_short a {
+  border-bottom: 1px solid #000;
+}
+
+.x-small {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.examples_title{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.examples_title span{
+  border-bottom: 1px solid currentColor;
+}
+
+.examples_btn{
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.btn {
+  font-weight: 500;
+  background-color: #fff;
+  border: none;
+  border-radius: 0px;
+  text-align: center;
+  color: #282828;
+  padding: .75em 1em;
+  font-size: 15px;
+  line-height: 1;
+  -webkit-transition: background-color 250ms;
+  -o-transition: background-color 250ms;
+  transition: background-color 250ms;
+  font-family: "Kaushan Script", cursive;
+}
+
+.news.is-visible {
+  display: block;
+}
+
+.news {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 101vh;
+  background-color: rgba(40,40,40,.9);
+  display: none;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 1000000;
+}
+.news_content {
+  max-width: 50rem;
+  width: 95%;
+  margin: 0 auto;
+  padding: 1.5rem;
+  background-color: #f4f4f4;
+  color:#000;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  max-height: 80vh;
+  overflow-y: scroll;
+}
+
+.close-button {
+  position: absolute;
+  right: .5em;
+  top: .1em;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.news_date {
+  font-weight: 600;
+  margin: 0;
+  font-size: 14px;
+}
+
+.news_title {
+  font-weight: 400;
+  margin: 0.4rem 0;
+  color:#000;
+  text-transform: capitalize;
+  line-height: 1.2;
+  position: relative;
+  font-size: 3rem;
+  border: none;
+}
+
+.news_body{
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: "Nanum Myeongjo", sans-serif;
+}
+
+@media only screen and (min-width: 50em){
+.news_content {
+    top: 50%;
+    padding: 3rem;
+}
+}

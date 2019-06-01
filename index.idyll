@@ -16,15 +16,7 @@ component goes here: define your own
 [/div]
 
 [div className:"section2"]
-[section className:"left"]
-wordcloud  here
-[/section]
-
-[aside className:"chart"]
-
-[barchart  /]
-
-[/aside]
+[sectiontwo /]
 [/div]
 
 [div className:"section3"]
