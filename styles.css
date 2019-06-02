@@ -614,3 +614,24 @@ h1 {
   color: #282828;
   background-color: #90FCFD;
 }
+.section1-score{
+  font-family: "Indie Flower", sans-serif;
+  font-size:25px;
+  float:right;
+  color:pink;
+  
+}
+.answertrue{
+  font-size:20px;
+  font-family: "Lemon", sans-serif;
+  text-align:center;
+  color:greenyellow;
+}
+.answerfalse{
+  font-size:20px;
+  font-family: "Lemon", sans-serif;
+  border: #FD4D69;
+  text-align: center;
+  color:orangered;
+
+}
