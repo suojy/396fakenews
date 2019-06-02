@@ -215,6 +215,21 @@ pre {
 .headerimg {
   min-height: 620px;
 }
+h5{
+  font-family: "Nanum Myeongjo", sans-serif;
+  font-weight: bold;
+}
+h6 {
+  padding: 0 0 0 0;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  border-bottom: none;
+  color: #fff;
+  text-transform: capitalize;
+  font-family: "Anton", sans-serif;
+}
+
 h3 {
   padding: 0 0 0 0;
   font-size: 20px;
@@ -266,10 +281,20 @@ h1 {
 }
 
 .section3-container {
+  margin-top: 4rem;
   padding: 2em;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+.section3_des{
+  max-width: 700px;
+  margin:0 auto;
+  display: flex;
+  justify-content: center;
+  font-family: "Nanum Myeongjo", sans-serif;
+  margin-bottom: 4rem;
 }
 
 .text-card {
@@ -318,6 +343,7 @@ h1 {
 
 /*section2*/
 .section2 {
+  margin-top: 10rem;
 }
 
 .left {
@@ -377,8 +403,16 @@ h1 {
   display: flex;
   flex-direction: row;
   min-height: 500px;
+  margin-top: 4rem;
 }
-
+.section2_des{
+  max-width: 700px;
+  margin:0 auto;
+  display: flex;
+  justify-content: center;
+  font-family: "Nanum Myeongjo", sans-serif;
+  margin-bottom: 4rem;
+}
 .word-cloud text:hover {
   fill: #f1f0a8;
 }
@@ -569,9 +603,7 @@ h1 {
   min-height: 500px;
   max-width: 1000px;
   margin: 0 auto;
-}
-.section1-container{
-  margin-top:6rem;
+  margin-top:10rem;
 }
 .card{
   -webkit-box-shadow: 8px -8px 0 0 rgba(253, 77, 105, 1);
@@ -615,6 +647,17 @@ h1 {
   
 }
 
+.content-main p {
+  margin: 0;
+  margin-bottom: 1em;
+  font-family: "Nanum Myeongjo", sans-serif;
+}
+
+.content-main h4 {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+}
+
 .choice-btn-t{
   color: #282828;
   background-color: #90FCFD;
@@ -648,4 +691,27 @@ h1 {
   text-align: center;
   color:orangered;
 
+}
+
+.section1_des{
+  max-width: 700px;
+  margin:0 auto;
+  display: flex;
+  justify-content: center;
+  font-family: "Nanum Myeongjo", sans-serif;
+  margin-bottom: 4rem;
+}
+
+/*section4*/
+.section4{
+  margin: 10rem 0;
+}
+
+.section4_des{
+  max-width: 700px;
+  margin:0 auto;
+  display: flex;
+  justify-content: center;
+  font-family: "Nanum Myeongjo", sans-serif;
+  margin-bottom: 4rem;
 }
