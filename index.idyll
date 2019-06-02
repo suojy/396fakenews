@@ -12,14 +12,27 @@
 [/div]
 
 [div className:"section1"]
+###### Can you recognize fake news?
+[div className:"section1_des"]
+ This section is designed to help you recognize fake news. How to play with that? Instructions go here.
+Please write more.
+[/div]
 [Section1 /]
 [/div]
 
 [div className:"section2"]
+###### what can we get from the fake news dataset?
+[div className:"section2_des"]
+For months, we’ve wanted some note-waving historian to emerge from the archives, and reassure us that, in fact, there’s no need to worry — we’re living through the same sense of unease that previous generations did during the Nixon administration, the Vietnam War, and the Iranian hostage crisis. 
+[/div]
 [sectiontwo /]
 [/div]
 
 [div className:"section3"]
+###### Generate your own fake news
+[div className:"section3_des"]
+Using the generator below, you can generate some fake news.
+[/div]
 [sectionthree /]
 
 
