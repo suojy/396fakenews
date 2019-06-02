@@ -12,19 +12,11 @@
 [/div]
 
 [div className:"section1"]
-component goes here: define your own
+[Section1 /]
 [/div]
 
 [div className:"section2"]
-[section className:"left"]
-wordcloud  here
-[/section]
-
-[aside className:"chart"]
-
-[barchart  /]
-
-[/aside]
+[sectiontwo /]
 [/div]
 
 [div className:"section3"]
