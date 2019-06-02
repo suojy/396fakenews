@@ -443,6 +443,11 @@ h1 {
   box-decoration-break: clone;
 }
 
+.example_short{
+  max-height: 300px;
+  overflow: auto;
+}
+
 .example_content .example_short a {
   font-weight: 400;
   margin-left: 6px;
@@ -565,18 +570,18 @@ h1 {
   max-width: 1000px;
   margin: 0 auto;
 }
+.section1-container{
+  margin-top:6rem;
+}
 .card{
   -webkit-box-shadow: 8px -8px 0 0 rgba(253, 77, 105, 1);
   box-shadow: 8px -8px 0 0 rgba(253, 77, 105, 1);
   max-width: 400px;
-  max-height: 400px;
-  overflow: auto;
   padding: 30px;
   background-color: #fff;
   background-color: white;
   color:#000;
   margin: 0 auto;
-  margin-top:6rem;
 }
 .btns{
   text-align: center;
@@ -617,9 +622,18 @@ h1 {
 .section1-score{
   font-family: "Indie Flower", sans-serif;
   font-size:25px;
-  float:right;
+  text-align: center;
   color:pink;
-  
+  margin-bottom: 1rem;
+}
+.section1-score .highlight2{
+  display: inline;
+  color: #000;
+  background-color: #fffe54;
+  -webkit-box-shadow: 4px 0 0 #fffe54, -4px 0 0 #fffe54;
+  box-shadow: 4px 0 0 #fffe54, -4px 0 0 #fffe54;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
 .answertrue{
   font-size:20px;
