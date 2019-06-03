@@ -23,7 +23,7 @@ class Section2 extends React.Component {
         {
           id: "2",
           key: "hillary",
-          word: "Clinton Hillary",
+          word: "Hillary Clinton",
           transform: "translate(16, -145)",
           size: 47
         },
