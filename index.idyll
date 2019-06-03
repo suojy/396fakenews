@@ -14,8 +14,17 @@
 [div className:"section1"]
 ###### Can you recognize fake news?
 [div className:"section1_des"]
- This section is designed to help you recognize fake news. How to play with that? Instructions go here.
-Please write more.
+ This section is designed to help you recognize fake news. There are five news articles for you to judge. Once you hit the right choice, you would gain 10 points. 
+ There are three basic steps to play this game:
+
+1. Read the article.
+2. Click on True if you think it's a real story.
+3. Click on False if you think it's fake.
+
+Here are some tips and suggestions for spotting fake news:
+1. Be careful of those flamboyant adjectives, which are rarely used in real news articles.
+2. If the article quotes a source, do the person’s words seem to match their title? Some fake articles have started putting words in the mouths of respected officials.
+3. Always remenber to check on the source, can you recognize them?
 [/div]
 [Section1 /]
 [/div]
@@ -24,6 +33,7 @@ Please write more.
 ###### what can we get from the fake news dataset?
 [div className:"section2_des"]
 For months, we’ve wanted some note-waving historian to emerge from the archives, and reassure us that, in fact, there’s no need to worry — we’re living through the same sense of unease that previous generations did during the Nixon administration, the Vietnam War, and the Iranian hostage crisis. 
+
 [/div]
 [sectiontwo /]
 [/div]
@@ -31,14 +41,17 @@ For months, we’ve wanted some note-waving historian to emerge from the archive
 [div className:"section3"]
 ###### Generate your own fake news
 [div className:"section3_des"]
-Using the generator below, you can generate some fake news.
+Using the generator below, you can generate some fake news. Overall, the best way to spot a fake news is to go behind the scenes and dive into the mind of a fake news distributor. 
+Your credibility would go down if you post or make fake news, but the section's narrator aims to let you forget your morals and profit off fear. 
+The real point of this section is to remind you that fake news relies on evoking strong emotions so that you act immediately without checking the facts, but it also gives you insight into spotting bots and liars more efficiently.
+Please, follow the narrator and enjoy generating fake news.
 [/div]
 [sectionthree /]
 
 [div className:"section4"]
 ###### Conclusion
 [div className:"section4_des"]
-Conclusion!!
+No one is safe from fake news, but there is always hope for everyone to become a better fact checker and fake news finder. By guessing if a piece is true and even becoming a fake news editor or publisher, we hope you can have a better recognition of fake news and stay safe from it. Stay calm, discriminative, critical and wise when reading news.
 [/div]
 [/div]
 
