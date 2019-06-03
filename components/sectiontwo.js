@@ -67,7 +67,8 @@ class Section2 extends React.Component {
       open: false,
       shuffle: true,
       data: [],
-      selected_example: []
+      selected_example: [],
+      key: ""
     };
     this.example = {};
     this.handleClick = this.handleClick.bind(this);
@@ -95,11 +96,12 @@ class Section2 extends React.Component {
       this.setState({ open: false });
     }
   }
-  handleClick(id) {
+  handleClick(id, key) {
     let def = [0, 0, 0, 0, 0, 0, 0];
     def[id - 1] = 1;
     this.setState({
-      selected: def
+      selected: def,
+      key: key
     });
     let d = [];
     switch (id) {
@@ -139,13 +141,12 @@ class Section2 extends React.Component {
     this.example = this.state.data.filter(d => d.uuid === id)[0];
     this.setState({ open: true });
   }
-  shuffle(){
+  shuffle() {
     let shuffled = this.state.data.sort(() => 0.5 - Math.random());
     this.setState({
       selected_example: shuffled.slice(0, 3)
     });
   }
-
 
   render() {
     const { hasError, idyll, updateProps, ...props } = this.props;
@@ -170,7 +171,7 @@ class Section2 extends React.Component {
                       id={k.id}
                       transform={k.transform}
                       style={{ fontSize: k.size }}
-                      onClick={e => this.handleClick(k.id)}
+                      onClick={e => this.handleClick(k.id, k.key)}
                     >
                       {k.word}
                     </text>
@@ -180,12 +181,25 @@ class Section2 extends React.Component {
                 <g className="g-axis" />
               </svg>
             </div>
-            <MyBarChart data={this.state.data} />
+            <div>
+              {this.state.key !== "" ? (
+                <p className={"barchart-title"}>
+                  <span className={"wordkey"}>{this.state.key}</span> was
+                  mentioned in fake news
+                </p>
+              ) : null}
+
+              {this.state.key !== "" ? (
+                <p className={"barchart-y"}>Mentions per 10k</p>
+              ) : null}
+              <MyBarChart data={this.state.data} />
+            </div>
           </div>
-          {this.state.selected_example.length !== 0?
-          <div className={"examples_title"}>
-            <span>The Fake News</span>
-          </div>:null}
+          {this.state.selected_example.length !== 0 ? (
+            <div className={"examples_title"}>
+              <span>The Fake News</span>
+            </div>
+          ) : null}
           <div className={"examples"}>
             {this.state.selected_example.length !== 0
               ? this.state.selected_example.map(s => (
@@ -205,10 +219,13 @@ class Section2 extends React.Component {
                 ))
               : null}
           </div>
-          {this.state.selected_example.length !== 0?
-          <div className={"examples_btn"}>
-            <button className={"btn"} onClick={()=>this.shuffle()}>Shuffle</button>
-          </div>:null}
+          {this.state.selected_example.length !== 0 ? (
+            <div className={"examples_btn"}>
+              <button className={"btn"} onClick={() => this.shuffle()}>
+                Shuffle
+              </button>
+            </div>
+          ) : null}
         </div>
         <div className={this.state.open ? "news is-visible" : "news"}>
           <div className={"news_content"} ref={this.setWrapperRef}>
