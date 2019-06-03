@@ -475,8 +475,14 @@ h1 {
   box-shadow: 4px 0 0 #fffe54, -4px 0 0 #fffe54;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  
 }
-
+.example_short_e{
+  max-height: 80px;
+  overflow: hidden;
+}
 .example_short{
   max-height: 300px;
   overflow: auto;
