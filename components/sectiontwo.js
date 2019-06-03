@@ -1,3 +1,10 @@
+import trump from "../data/trump.json";
+import hillary from "../data/hillary.json";
+import election from "../data/election.json";
+import obama from "../data/obama.json";
+import vote from "../data/vote.json";
+import president from "../data/president.json";
+import philippine from "../data/phillipine.json";
 import MyBarChart from "./barchart";
 const React = require("react");
 
@@ -8,49 +15,57 @@ class Section2 extends React.Component {
       keyword: [
         {
           id: "1",
+          key: "trump",
           word: "Donald Trump",
           transform: "translate(-67, -80)",
           size: 50
         },
         {
           id: "2",
+          key: "hillary",
           word: "Clinton Hillary",
           transform: "translate(16, -145)",
           size: 47
         },
         {
           id: "3",
+          key: "election",
           word: "Election",
           transform: "translate(210, -20)",
           size: 45
         },
         {
           id: "4",
-          word: "Philippine",
+          key: "obama",
+          word: "Obama",
           transform: "translate(-134, -5)",
           size: 45
         },
         {
           id: "5",
-          word: "President",
+          key: "vote",
+          word: "Vote",
           transform: "translate(-49, 65)",
           size: 43
         },
         {
           id: "6",
-          word: "Obama",
+          key: "president",
+          word: "president",
           transform: "translate(130, 70)",
           size: 30
         },
         {
           id: "7",
-          word: "Vote",
+          key: "philippine",
+          word: "Philippine",
           transform: "translate(-110, -158)",
           size: 27
         }
       ],
       selected: [0, 0, 0, 0, 0, 0, 0],
-      open: false
+      open: false,
+      data: []
     };
     this.handleClick = this.handleClick.bind(this);
     this.setWrapperRef = this.setWrapperRef.bind(this);
@@ -82,6 +97,35 @@ class Section2 extends React.Component {
     this.setState({
       selected: def
     });
+    let d = [];
+    switch (id) {
+      case "1":
+        d = trump;
+        break;
+      case "2":
+        d = hillary;
+        break;
+      case "3":
+        d = election;
+        break;
+      case "4":
+        d = obama;
+        break;
+      case "5":
+        d = vote;
+        break;
+      case "6":
+        d = president;
+        break;
+      case "7":
+        d = philippine;
+        break;
+      default:
+        break;
+    }
+    this.setState({
+      data:d
+    })
   }
   clicknews() {
     this.setState({ open: true });
@@ -119,7 +163,7 @@ class Section2 extends React.Component {
                 <g className="g-axis" />
               </svg>
             </div>
-            <MyBarChart />
+            <MyBarChart data={this.state.data} />
           </div>
           <div className={"examples_title"}>
             <span>The Fake News</span>
@@ -162,7 +206,12 @@ class Section2 extends React.Component {
         </div>
         <div className={this.state.open ? "news is-visible" : "news"}>
           <div className={"news_content"} ref={this.setWrapperRef}>
-            <div className={"close-button"} onClick={()=>this.setState({open:false})}>x</div>
+            <div
+              className={"close-button"}
+              onClick={() => this.setState({ open: false })}
+            >
+              x
+            </div>
             <h4 className={"news_date"}>Time</h4>
             <h1 className={"news_title"}>It should be long long title</h1>
             <p className={"news_body"}>
