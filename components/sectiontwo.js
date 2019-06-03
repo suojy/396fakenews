@@ -199,7 +199,7 @@ class Section2 extends React.Component {
                       <a>Read more</a>
                     </p>
                     <p className={"example_footer x-small"}>
-                      {s.published.substring(0, 9)}/ {s.site_url}
+                      {s.published.substring(0, 10)}/ {s.site_url}
                     </p>
                   </div>
                 ))
@@ -222,7 +222,7 @@ class Section2 extends React.Component {
               <div>
                 <h4 className={"news_date"}>
                   {this.example.published
-                    ? this.example.published.substring(0, 9)
+                    ? this.example.published.substring(0, 10)
                     : this.example.published}
                 </h4>
                 <h1 className={"news_title"}>{this.example.title}</h1>
