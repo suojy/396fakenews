@@ -99,6 +99,6 @@ class Stickers extends React.Component {
       </ul>
     );
   }
-}
+} 
 
 module.exports = Stickers;
