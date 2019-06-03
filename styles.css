@@ -406,6 +406,19 @@ h1 {
   min-height: 500px;
   margin-top: 4rem;
 }
+
+.barchart-y,.barchart-title{
+  font-family: "Nanum Myeongjo", sans-serif;
+}
+.barchart-y{
+  margin-bottom: 0;
+}
+.wordkey{
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: "Anton", sans-serif;
+}
 .section2_des{
   max-width: 700px;
   margin:0 auto;

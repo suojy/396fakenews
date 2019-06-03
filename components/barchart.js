@@ -44,7 +44,7 @@ class MyBarChart extends D3Component {
       
     var image = pattern.append("image")
     image
-    .attr("xlink:href","../static/images/stripes.png")
+    .attr("xlink:href","https://i.postimg.cc/NMybjFRk/stripes.png")
     .attr("x","0")
     .attr("y", "0")
     .attr("width", "200")
