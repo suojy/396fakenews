@@ -32,8 +32,10 @@ Here are some tips and suggestions for spotting fake news:
 [div className:"section2"]
 ###### what can we get from the fake news dataset?
 [div className:"section2_des"]
-For months, we’ve wanted some note-waving historian to emerge from the archives, and reassure us that, in fact, there’s no need to worry — we’re living through the same sense of unease that previous generations did during the Nixon administration, the Vietnam War, and the Iranian hostage crisis. 
+Here in the word cloud, we present some most frequently used key words in fake news in Octobor and November of 2016. News in these two months is mostly politics related because of the election. Try clicking on the word you are interested in! 
 
+Check out the chart on the right side! The horizontal axis shows the attitude of the fake news, there are three catagories: negative, netural and positive. The verticle axis shows how many times fake news with this attitude are created.
+ 
 [/div]
 [sectiontwo /]
 [/div]
