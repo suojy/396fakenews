@@ -80,6 +80,7 @@ class Section1 extends React.Component {
             'Pelosi has repeatedly confronted calls for Trump’s impeachment since taking the speaker’s gavel. In the Thursday night interview, she went further in explaining the reasoning behind her belief that President Trump wants Democrats to impeach him because it could benefit him once he is out of office.\n "I think the president wants us to impeach him," the California Democrat told Jimmy Kimmel. "He knows it\'s not a good idea to be impeached, but the silver lining for him is then, he believes, that he would be exonerated by the United States Senate. \n "And," Pelosi continued, "there is a school of thought that says, "If the Senate acquits you, why bring charges against him in the private sector when he\'s no longer president?" So when we go through with our case, it\'s got to be ironclad. Ironclad.',
           source: "www.abcnews.com",
           answer: "true",
+          keywords: ["would be exonerated", "acquits", "could benefit"],
           id: 5,
           explain: "ABC News is a mainstream cable news channel."
         },
@@ -91,6 +92,7 @@ class Section1 extends React.Component {
           source: "www.washingtonpost.com",
           answer: "true",
           id: 6,
+          keywords: ["beneficial", "able", "emotional maturity"],
           explain:
             "Washington Post publishes well-sourced and accurate articles."
         },
@@ -101,6 +103,7 @@ class Section1 extends React.Component {
           source: "www.washingtonpost.com",
           answer: "true",
           id: 7,
+          keywords: ["Bloomberg News"],
           explain: "Washington Post is a neutral and reliable news publisher."
         },
         {
@@ -110,6 +113,7 @@ class Section1 extends React.Component {
           source: "www.bbc.com",
           answer: "true",
           id: 8,
+          keywords: ["62 miles (100km) away"],
           explain: "BBC News is reliable."
         },
         {
@@ -119,6 +123,7 @@ class Section1 extends React.Component {
           source: "www.bbc.com",
           answer: "true",
           id: 9,
+          keywords: ["an increasing number of"],
           explain: "BBC News is reliable."
         }
       ]
