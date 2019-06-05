@@ -346,7 +346,15 @@ h1 {
 .section2 {
   margin-top: 10rem;
 }
-
+div.tooltip{
+  position:absolute;
+  text-align: left;
+  background-color: white;
+  width:250px;
+  height:60px;
+  padding:2px 15px;
+  pointer-events: none;
+}  
 .left {
   min-width: 600px;
   margin-right: 60px;

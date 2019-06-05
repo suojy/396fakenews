@@ -32,7 +32,7 @@ class MyBarChart extends D3Component {
     .x(function(d) { return x(d.x); })
     .y0(size-margin.top)
     .y1(function(d) { return y(d.y); });
-
+    
     var defs = svg.append("defs");
 
     var pattern = defs.append("pattern")
@@ -58,7 +58,8 @@ class MyBarChart extends D3Component {
       .attr("x", function(d) { return x(d.x); })
       .attr("width", 50)
       .attr("y", function(d) { return y(d.y); })
-      .attr("height", function(d) { return size-margin.top - y(d.y); });
+      .attr("height", function(d) { return size-margin.top - y(d.y); })
+
     // svg.append("path")
     //   .data([data])
     //   .style("fill", "url(#diagonal-stripe-2)")
@@ -95,14 +96,14 @@ class MyBarChart extends D3Component {
     var x = d3.scaleBand().domain(["negative","netural","positive"]).range([0, 400]);
     x.paddingOuter(1)
     var y = d3.scaleLinear().domain([0,d3.max(data, function(d) { return d.y; })]).range([size-margin.top, 20]);
-
     this.svg.selectAll('.bar')
       .data(data)
       .transition()
       .duration(750)
       .attr("x", function(d) { return x(d.x); })
       .attr("y", function(d) { return y(d.y); })
-      .attr("height", function(d) { return size-margin.top - y(d.y); });
+      .attr("height", function(d) { return size-margin.top - y(d.y); })
+
     // this.svg.selectAll('.area')
     //   .data([data])
     //   .transition()
