@@ -67,6 +67,7 @@ class Stickers extends React.Component {
     var random_color = this.state.colors[
       index
     ];
+    if (index===3||index===4)
     return (
       <Transition in={this.state.in} timeout={this.duration}>
         {status => {
@@ -75,7 +76,7 @@ class Stickers extends React.Component {
               className={"fade-transition fade-" + status}
               style={{
                 backgroundColor: random_color,
-                color: index===3||index===4?'#000':'#fff',
+                color: '#000',
                 position: "absolute",
                 left: posx + "px",
                 top: posy + "px"
@@ -87,6 +88,28 @@ class Stickers extends React.Component {
         }}
       </Transition>
     );
+    else
+    return (
+      <Transition in={this.state.in} timeout={this.duration}>
+        {status => {
+          return (
+            <li
+              className={"fade-transition fade-" + status}
+              style={{
+                backgroundColor: random_color,
+                color: '#fff',
+                position: "absolute",
+                left: posx + "px",
+                top: posy + "px"
+              }}
+            >
+              {t}
+            </li>
+          );
+        }}
+      </Transition>
+    );
+
   }
 
   render() {
