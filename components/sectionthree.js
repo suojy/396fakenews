@@ -32,7 +32,7 @@ class Section3 extends React.Component {
             "Do you wanna post a negative, netural or positive fake news?",
           choice: [
             { toid: 6, mess: "Negative" },
-            { toid: 9, mess: "Netural" },
+            { toid: 8, mess: "Netural" },
             { toid: 10, mess: "Positive" }
           ]
         },
@@ -60,16 +60,16 @@ class Section3 extends React.Component {
           choice: [{ toid: 17, mess: "I'm ready!" }]
         },
         {
-          id: 9,
-          content:
-            "Nah, what are you thinking? Don't be so civilized, you are making fake news!",
-          choice: [{ toid: 5, mess: "Let me choose again" }]
+          id: 8,
+          content: "Ha you just want to have some fun right? What about SNL?",
+          choice: [
+            { toid: 9, mess: "Say SNL knows the election result in advance!" }
+          ]
         },
         {
           id: 9,
-          content:
-            "Nah, what are you thinking? Don't be so civilized, you are making fake news!",
-          choice: [{ toid: 4, mess: "Let me choose again" }]
+          content: "uuid: 1b9104850bec39ed6a90d185913108c87f267767",
+          choice: [{ toid: 2, mess: "Nice!" }]
         },
         {
           id: 10,
@@ -133,8 +133,8 @@ class Section3 extends React.Component {
     };
     this.handleClick = this.handleClick.bind(this);
   }
-  //触发  13，14， 17扣信用10，
-  //触发 15，19 扣5
+  //触发  13，14， 17, 15, 19扣信用10，
+  //触发9扣5,
   handleClick(id) {
     if (id === 5) {
       if (this.state.nowvalue === 0) {
