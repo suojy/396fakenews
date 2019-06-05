@@ -56,7 +56,7 @@ class Section3 extends React.Component {
         },
         {
           id: 7,
-          content: "What about something about email controversy?",
+          content: "What about something about election fraud?",
           choice: [{ toid: 17, mess: "I'm ready!" }]
         },
         {
@@ -120,7 +120,7 @@ class Section3 extends React.Component {
         },
         {
           id: 18,
-          content: "uuid: 87d7bb4dec5ba06bbc5882390bca07a49fbbe6db",
+          content: "uuid: 69851ee9245122d59905e6075036999ba0cd82ee",
           choice: [{ toid: 2, mess: "Make another fake news!" }]
         },
         {
