@@ -16,6 +16,7 @@ class Section1 extends React.Component {
           "source": "www.21stcenturywire.com",
           "answer": "false",
           "id": 0,
+          "keywords": ["WikiLeaks", "excerpt", "ramifications","allegation", "rogue"],
           "explain": "21stcenturywire.com is an unreliable site. Note that sourecs are named but the stories are not found on the source websites. "
         },
         {
@@ -24,6 +25,7 @@ class Section1 extends React.Component {
           "source": "www.adobochronicles.com",
           "answer": "false",
           "id": 1,
+          "keywords": ["tremendous","attack", "eschew"],
           "explain": "adobochronicles.com is a satire site. Such big and controversial change, if true, should be announced ny Apple rather than this kind of website right?"
         },
         {
@@ -32,12 +34,13 @@ class Section1 extends React.Component {
           "source": "www.ahtribune.com",
           "answer": "false",
           "id": 2,
+          "keywords": ["detaining", "death"],
           "explain": "ahtribune.com is a famous fake news website. Just be careful!"
         },
         {
           "title": "Russia, China Look To Autonomous Financial System",
           "article": "Russia and China need to create an autonomous financial system which would be minimally subject to political risks and external pressure, Russian Prime Minister Dmitry Medvedev said in an interview with the Chinese Central Television (CCTV).  \n  “As I see it, what should we be guided with in creating a modern financial system in the People’s Republic of China and in the Russian Federation?” he said. “We need to set up a modern, protected and simultaneously quite autonomous financial system, which would be subject to political risks to a lesser degree.” Nowadays, Russia and China are considering integration of Russia’s national payment system, the Mir bank cards, and China’s UnionPay system, he said.   \n “In our view, it would help to enhance the reliability of payments,” Medvedev said, adding that sometimes some countries were trying to exert “all sorts of political pressure.” European banks had been regularly fined by US financial authorities and financial companies, he added. \n “They say ‘We will take ten billion euros from a French bank and seven billion euros from a German bank’. Our European partners agree with this,” Medvedev said.  \n “I am not speaking about the nature of these disputes but that we must protect our financial systems. China must protect its own system and Russia must protect its own system. Therefore, this cooperation is very useful as in this situation no-one will be capable of blocking the road of financial traffic,” he emphasized. Russia looks to predictability of China’s economic growth \n Russia expects that China’s economic growth will be predictable and is set to cooperate with Chinese partners for the purpose, Russia’s Prime Minister said in an interview. ",
-      
+          "keywords": ["need to", "lesser", "blocking"],
           "source": "www.initialreactionnews.com",
           "answer": "false",
           "id": 3,
@@ -47,6 +50,7 @@ class Section1 extends React.Component {
           "title": "It Literally Hurts My Brain to Read the Economic Idiocy",
           "article": "Here’s a letter to the Wall Street Journal. \n Wilbur Ross’s and Peter Navarro’s defense of Donald Trump’s economic policies is mostly a mash of bunkum (“ A Vote for Trump Is a Vote for Growth ,” Oct. 26). Consider this claim: “Donald Trump will cut taxes, reduce regulation … and eliminate our trade deficit through muscular trade negotiations that increase exports, [and] reduce imports….”\n  Cut taxes? Bunk. Trump famously promises to raise taxes on Americans who buy imports. Reduce regulation? Rubbish. Trump promises more government intrusions into Americans’ commerce with foreigners. \n As for ‘eliminating’ our trade deficit, Trump might indeed succeed on that front. But such ‘success’ would be regrettable, for it would be the inevitable outcome of the American economy being made an unattractive destination for investment. (Ross and Navarro seem to be unaware that to “eliminate our trade deficit” – such as was done, for example, during the Great Depression – is to eliminate net contributions by foreigners to increasing the size of America’s capital stock.)\n But Trump’s most absurd promise is to enrich Americans by increasing exports and reducing imports. Imports are what we voluntarily buy and exports are the price we pay. Therefore, a policy meant to increase exports while decreasing imports is a policy meant to force Americans to pay more to foreigners and to receive less in return – a decidedly unartful deal the architect of which would deserved to be fired.\n  But the Trump camp’s confusion runs even more deeply. Exporting for Americans is worthwhile only because it supplies us with the means to purchase imports, either currently or in the future. So a policy that aims both to increase exports and to decrease imports is akin to a policy that aims both to increase people’s spending power and to decrease it. It’s a policy meant to give Americans greater means for acquiring imports as it simultaneously strips Americans of the freedom to use those means. It’s the economic policy equivalent of an attempt to square a circle.\n Sincerely,\n Donald J. Boudreaux\n  Professor of Economics \n  and\n  Martha and Nelson Getchell Chair for the Study of Free Market Capitalism at the Mercatus Center\n  George Mason University \n  Fairfax, VA 22030",
           "source": "www.beforeitsnews.com",
+          "keywords": ["Rubbish", "deficit", "intrusions"],
           "answer": "false",
           "id": 4,
           "explain": "beforeitsnews.com, which can be told from its funny name, is an unreliable news site."
