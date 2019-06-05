@@ -103,7 +103,7 @@ class Section1 extends React.Component {
           source: "www.washingtonpost.com",
           answer: "true",
           id: 7,
-          keywords: ["Bloomberg News"],
+          keywords: ["Bloomberg News", "Justice"],
           explain: "Washington Post is a neutral and reliable news publisher."
         },
         {
@@ -113,7 +113,7 @@ class Section1 extends React.Component {
           source: "www.bbc.com",
           answer: "true",
           id: 8,
-          keywords: ["62 miles (100km) away"],
+          keywords: ["collaborating","talented"],
           explain: "BBC News is reliable."
         },
         {
@@ -123,7 +123,7 @@ class Section1 extends React.Component {
           source: "www.bbc.com",
           answer: "true",
           id: 9,
-          keywords: ["an increasing number of"],
+          keywords: ["safety"],
           explain: "BBC News is reliable."
         }
       ]
@@ -235,7 +235,12 @@ class Section1 extends React.Component {
               <div className={"answertrue"}>Correct</div>
               <div>
                 <h5>Source:{this.state.newspicked[this.state.n].source}</h5>
-                <p>{this.state.newspicked[this.state.n].explain}</p>
+                <h5 style={{margin:0, fontStyle:"italic"}}>Pay attention to these words:</h5>
+                <div className={"keywords"}>
+                {this.state.newspicked[this.state.n].keywords.map(key=>(
+                  <h5>{key}</h5>
+                ))}</div>
+                <p>Explanation: {this.state.newspicked[this.state.n].explain}</p>
               </div>
               <div className={"btns"}>
                 {this.state.n === 4 ? (
@@ -262,7 +267,12 @@ class Section1 extends React.Component {
               <div className={"answerfalse"}>Wrong</div>
               <div>
                 <h5>Source:{this.state.newspicked[this.state.n].source}</h5>
-                <p>{this.state.newspicked[this.state.n].explain}</p>
+                <h5 style={{margin:0, fontStyle:"italic"}}>Pay attention to these words:</h5>
+                <div className={"keywords"}>
+                {this.state.newspicked[this.state.n].keywords.map(key=>(
+                  <h5>{key}</h5>
+                ))}</div>
+                <p>Explanation: {this.state.newspicked[this.state.n].explain}</p>
               </div>
               <div className={"btns"}>
                 {this.state.n === 4 ? (

@@ -649,6 +649,15 @@ div.tooltip{
 .btns{
   text-align: center;
 }
+.keywords{
+  display: flex;
+  justify-content: flex-start;
+}
+.keywords h5{
+  background-color: #fffe54;
+  margin-right: 10px;
+  margin-top: 8px;
+}
 .choice-btn-t,.choice-btn-f,.choice-btn-restart,.choice-btn-next{
   font-weight: 500;
   
