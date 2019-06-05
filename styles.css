@@ -297,7 +297,9 @@ h1 {
   font-family: "Nanum Myeongjo", sans-serif;
   margin-bottom: 4rem;
 }
-
+.ex_content{
+  font-family: "Nanum Myeongjo", sans-serif;
+}
 .text-card {
   -webkit-box-shadow: -8px 8px 0 0 rgba(144, 252, 253, 0.8);
   box-shadow: -8px 8px 0 0 rgba(144, 252, 253, 0.8);

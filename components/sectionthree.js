@@ -142,8 +142,6 @@ class Section3 extends React.Component {
         },
         {
           id: 17,
-          type: "fn",
-          
           content: "Wanna make the news eye-catching?",
           choice: [{ toid: 18, mess: "For sure! Add some words like Boom! ",cred: "10" }]
         },
@@ -177,7 +175,8 @@ class Section3 extends React.Component {
           choice: [{ toid: 2, mess: "Make another fake news!" }]
         }
       ],
-      nowat: 1
+      nowat: 1,
+      message: ""
     };
     this.handleClick = this.handleClick.bind(this);
   }
@@ -186,19 +185,26 @@ class Section3 extends React.Component {
   handleClick(id, c) {
     if (c.cred) {
       if (this.state.nowvalue === 0) {
-        console.log("you are now freezed");
+        this.setState({ message: "You are freezed!" });
       } else {
-        console.log(c.cred);
-        this.setState({ nowvalue: this.state.nowvalue - Number(c.cred) });
+        if (this.state.nowvalue - Number(c.cred) < 0)
+          this.setState({ nowvalue: 0 });
+        else this.setState({ nowvalue: this.state.nowvalue - Number(c.cred) });
       }
     }
-    this.setState({ nowat: id });
+    if(this.state.nowvalue == 0){
+      this.setState({ message: "You are freezed!" });
+    }else{
+      this.setState({ nowat: id });
+    }
+    
   }
   render() {
     const { hasError, idyll, updateProps, ...props } = this.props;
     return (
       <div {...props} className={"section3-container"}>
         <div className={"score"}>
+          <h2 style={{fontSize: "2.5rem"}}>{this.state.message}</h2>
           <h2 style={{ color: "#E93D58" }}>Credibility</h2>
           <ReactSpeedometer
             startColor={"#E93D58"}
@@ -219,7 +225,7 @@ class Section3 extends React.Component {
                     <p className={"example_short x-small"}>{c.text}</p>
                   </div>
                 ) : (
-                  <p>{c.content}</p>
+                  <p className={"ex_content"}>{c.content}</p>
                 )}
               </div>
               <div className={"choose"}>
