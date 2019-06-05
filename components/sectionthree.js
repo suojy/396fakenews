@@ -63,14 +63,13 @@ class Section3 extends React.Component {
           id: 8,
           content: "Ha you just want to have some fun right? What about SNL?",
           choice: [
-            { toid: 9, mess: "Say SNL knows the election result in advance!" }
+            { toid: 9, mess: "Say SNL knows the election result in advance!", cred: "5" }
           ]
         },
         {
           id: 9,
           type: "fn",
           about: "trump",
-          cred: "5",
           title:
             "SNL Gets Real And Delivers The Most Important Message Of The Election Year (VIDEO)",
           text:
@@ -81,22 +80,21 @@ class Section3 extends React.Component {
         {
           id: 10,
           content: "Something about Amish supporting him?",
-          choice: [{ toid: 15, mess: "Guess I don't have a choice" }]
+          choice: [{ toid: 15, mess: "Guess I don't have a choice",cred: "10" }]
         },
         {
           id: 11,
           content: "What about middle east??",
-          choice: [{ toid: 14, mess: "Nice " }]
+          choice: [{ toid: 14, mess: "Nice ", cred: "10" }]
         },
         {
           id: 12,
           content: "Wanna make the news eye-catching?",
-          choice: [{ toid: 13, mess: "For sure! Add some words like Boom! " }]
+          choice: [{ toid: 13, mess: "For sure! Add some words like Boom! ",cred: "10" }]
         },
         {
           id: 13,
           type: "fn",
-          cred: "10",
           about: "trump",
           title:
             "Unhinged Trump Supporter Holds Children AT GUNPOINT Over Damaged Trump Sign (VIDEO)",
@@ -108,7 +106,7 @@ class Section3 extends React.Component {
         {
           id: 14,
           type: "fn",
-          cred: "10",
+          
           about: "trump",
           title:
             "This Election is Not About Trump, Its about a Giant Middle Finger to Washington DC.",
@@ -120,7 +118,6 @@ class Section3 extends React.Component {
         {
           id: 15,
           type: "fn",
-          cred: "10",
           about: "trump",
           title:
             "The Amish In America Commit Their Vote To Donald Trump; Mathematically Guaranteeing Him A Presidential Victory - ABC News",
@@ -131,30 +128,32 @@ class Section3 extends React.Component {
         },
         {
           id: 16,
-          cred: "10",
+          
           content:
             "What about posting something about her health situation to defend her?",
           choice: [
             {
               toid: 19,
               mess:
-                "Right, fake news can sometimes do something good! And I want to be gentle."
+                "Right, fake news can sometimes do something good! And I want to be gentle.",
+                cred: "10"
             }
           ]
         },
         {
           id: 17,
-          type: "fn",
-          cred: "10",
           content: "Wanna make the news eye-catching?",
-          choice: [{ toid: 18, mess: "For sure! Add some words like Boom! " }]
+          choice: [{ toid: 18, mess: "For sure! Add some words like Boom! ",cred: "10" }]
         },
         {
           id: 18,
-
           type: "fn",
-          cred: "10",
           about: "hillary",
+          title:
+            "Hillary Clintons election fraud finally exposed. California stolen from Bernie Sanders!",
+          text:
+            "Hillary Clinton's election fraud finally exposed. California stolen from Bernie Sanders! page: 1 link With all the talk from MSM of Russians interfering with US elections. Rumors of Soros owning new computer voting machines that can easily be programed to steal election. If you don't think that the DNC won't steal an election if they can. Think again. a reply to: Doctor Smith Intuitively, we all know that Hillary is capable of attempting to steal an election. Your video, combined with the many e-mails provided by WikiLeaks, confirms that she does indeed have an army of cronies out there breaking federal and state election laws, to not only cheat Bernie Sanders, but to get her into the White House again too. Hillary is indeed a Nasty Woman, just as Elizabeth Warren confirmed this past Monday. link This is the stuff that needs a independent investigation launched pronto. If it is found out 100% it is a fix, what then? I guess there could be a sweeping write in movement for Bernie..or just vote for Stein a reply to: Doctor Smith Now the million dollar question is what are \"we\" the people going to do about it ? originally posted by: SaturnFX This is the stuff that needs a independent investigation launched pronto. If it is found out 100% it is a fix, what then? I guess there could be a sweeping write in movement for Bernie..or just vote for Stein Vote for Pee Wee Herman if you want. Just don't vote those Clinton criminals in again. But if you really want to stop her, you have to vote for Trump. Compared to Hillary, Trump is Honest Abraham Lincoln. new topics",
+
           content: "uuid: 69851ee9245122d59905e6075036999ba0cd82ee",
 
           title:
@@ -168,7 +167,6 @@ class Section3 extends React.Component {
           id: 19,
           type: "fn",
           about: "hillary",
-          cred: "10",
           title: "Hillary Conquers 2 Steps with Little Help",
           text:
             "Hillary Conquers 2 Steps with Little Help page: 1 link She has again conquered a flight of stairs, well 2 steps, with little help. As you can see in the video she takes the first step with ease as her helper rushes to her side just in time. The next step was larger and she glances back knowing a lending hand is there. He gives her a boost and she proudly, albeit ironically, holds up her \"Stronger Together\" sign. Political Mudpit seems like a good spot for this. With how Presidents age in office, how much is she going to deteriorate over the next 4 years? Ghost I though she was about to perform a pole dance. (post by paradoxious removed for a serious terms and conditions violation) link What with all of the time she spends off of the campaign trail, you would think she could spend a little time in the gym, working on her leg strength. And I know, given all of the \"speech money\" she and Bill have socked away, she can afford to hire a personal trainer... link a reply to: mobiusmale What with all of the time she spends off of the campaign trail, you would think she could spend a little time in the gym, working on her leg strength. And cut into her 16 hours of sleep and naps per day? Not likely. link originally posted by: ghostrager Could it just be that the second step was a little higher up and she needed some help? Or maybe theven gentleman that is supposed to be by her side was just being a gentleman. Good thing Franklin D. Roosevelt isn't running in the US today. don't fool yourself, ol frank was in some deep pockets to. And cut into her 16 hours of sleep and naps per day? Not likely. I had heard it was 18 hours. Good thing Franklin D. Roosevelt isn't running in the US today. don't fool yourself, ol frank was in some deep pockets to. In this case it was about steps, not which pocket. There all in some pocket even if it isn't about money. link a reply to: roadgravel frank also tried to hide the extant his disability from the public as best he could. sounds very familiar to me. link Her, age in office? We're talking about the grim reaper here. Who's already been in cahoots with other elites and has been in the game completely giving zero f***s about anything except power. Anyway, the video didn't really deliver. She is wearing heels, so that's enough to valid needing a hand assist. Enough to be a non story, and discredit her real concerning health issues as far reach. On another note, she's horrendous. Her greeting the crowd wooing looking like someone who's high as hell in lala land tripping on acid etc. Let's not talk further about her joker smile.",
@@ -177,7 +175,8 @@ class Section3 extends React.Component {
           choice: [{ toid: 2, mess: "Make another fake news!" }]
         }
       ],
-      nowat: 1
+      nowat: 1,
+      message: ""
     };
     this.handleClick = this.handleClick.bind(this);
   }
@@ -186,19 +185,26 @@ class Section3 extends React.Component {
   handleClick(id, c) {
     if (c.cred) {
       if (this.state.nowvalue === 0) {
-        console.log("you are now freezed");
+        this.setState({ message: "You are freezed!" });
       } else {
-        console.log(c.cred);
-        this.setState({ nowvalue: this.state.nowvalue - Number(c.cred) });
+        if (this.state.nowvalue - Number(c.cred) < 0)
+          this.setState({ nowvalue: 0 });
+        else this.setState({ nowvalue: this.state.nowvalue - Number(c.cred) });
       }
     }
-    this.setState({ nowat: id });
+    if(this.state.nowvalue == 0){
+      this.setState({ message: "You are freezed!" });
+    }else{
+      this.setState({ nowat: id });
+    }
+    
   }
   render() {
     const { hasError, idyll, updateProps, ...props } = this.props;
     return (
       <div {...props} className={"section3-container"}>
         <div className={"score"}>
+          <h2 style={{fontSize: "2.5rem"}}>{this.state.message}</h2>
           <h2 style={{ color: "#E93D58" }}>Credibility</h2>
           <ReactSpeedometer
             startColor={"#E93D58"}
@@ -213,12 +219,19 @@ class Section3 extends React.Component {
           .map(c => (
             <div key={c.id}>
               <div className={"text-card"}>
-                {c.type ? <p>{c.content}</p> : <p>{c.content}</p>}
+                {c.type ? (
+                  <div className={"content-main"}>
+                    <h4>{c.title}</h4>
+                    <p className={"example_short x-small"}>{c.text}</p>
+                  </div>
+                ) : (
+                  <p className={"ex_content"}>{c.content}</p>
+                )}
               </div>
               <div className={"choose"}>
                 {c.choice.map(choice => (
                   <button
-                    onClick={() => this.handleClick(choice.toid, c)}
+                    onClick={() => this.handleClick(choice.toid, choice)}
                     key={"" + c.id + choice.toid + ""}
                   >
                     {choice.mess}
