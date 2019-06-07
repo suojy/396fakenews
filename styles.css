@@ -838,3 +838,13 @@ h1 {
 .showtooltip{
   display: block;
   }
+
+.cred_highlight{
+  display: inline;
+  color: #000;
+  background-color: greenyellow;
+  -webkit-box-shadow: 4px 0 0 greenyellow, -4px 0 0 greenyellow;
+  box-shadow: 4px 0 0 greenyellow, -4px 0 0 greenyellow;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}

@@ -25,6 +25,7 @@ class Section1 extends React.Component {
             "allegation",
             "rogue"
           ],
+          credibility: "3/5",
           explain:
             "21stcenturywire.com is an unreliable site. Note that sourecs are named but the stories are not found on the source websites. "
         },
@@ -36,6 +37,7 @@ class Section1 extends React.Component {
           answer: "false",
           id: 1,
           keywords: ["tremendous", "attack", "eschew"],
+          credibility: "2/5",
           explain:
             "adobochronicles.com is a satire site. Such big and controversial change, if true, should be announced ny Apple rather than this kind of website right?"
         },
@@ -48,6 +50,7 @@ class Section1 extends React.Component {
           answer: "false",
           id: 2,
           keywords: ["detaining", "death"],
+          credibility: "1/5",
           explain:
             "ahtribune.com is a famous fake news website. Just be careful!"
         },
@@ -59,6 +62,7 @@ class Section1 extends React.Component {
           source: "www.initialreactionnews.com",
           answer: "false",
           id: 3,
+          credibility: "2/5",
           explain:
             'IRNews is a satire website with the motto:"Your source of uncourced news.'
         },
@@ -70,6 +74,7 @@ class Section1 extends React.Component {
           keywords: ["Rubbish", "deficit", "intrusions"],
           answer: "false",
           id: 4,
+          credibility: "2/5",
           explain:
             "beforeitsnews.com, which can be told from its funny name, is an unreliable news site."
         },
@@ -82,6 +87,7 @@ class Section1 extends React.Component {
           answer: "true",
           keywords: ["would be exonerated", "acquits", "could benefit"],
           id: 5,
+          credibility: "5/5",
           explain: "ABC News is a mainstream cable news channel."
         },
         {
@@ -93,6 +99,7 @@ class Section1 extends React.Component {
           answer: "true",
           id: 6,
           keywords: ["beneficial", "able", "emotional maturity"],
+          credibility: "5/5",
           explain:
             "Washington Post publishes well-sourced and accurate articles."
         },
@@ -104,6 +111,7 @@ class Section1 extends React.Component {
           answer: "true",
           id: 7,
           keywords: ["Bloomberg News", "Justice"],
+          credibility: "5/5",
           explain: "Washington Post is a neutral and reliable news publisher."
         },
         {
@@ -114,6 +122,7 @@ class Section1 extends React.Component {
           answer: "true",
           id: 8,
           keywords: ["collaborating","talented"],
+          credibility: "5/5",
           explain: "BBC News is reliable."
         },
         {
@@ -124,6 +133,7 @@ class Section1 extends React.Component {
           answer: "true",
           id: 9,
           keywords: ["safety"],
+          credibility: "5/5",
           explain: "BBC News is reliable."
         }
       ]
@@ -240,6 +250,7 @@ class Section1 extends React.Component {
                 {this.state.newspicked[this.state.n].keywords.map(key=>(
                   <h5>{key}</h5>
                 ))}</div>
+                <p><span className="cred_highlight">Credibility</span>: {this.state.newspicked[this.state.n].credibility}</p>
                 <p>Explanation: {this.state.newspicked[this.state.n].explain}</p>
               </div>
               <div className={"btns"}>
@@ -272,6 +283,7 @@ class Section1 extends React.Component {
                 {this.state.newspicked[this.state.n].keywords.map(key=>(
                   <h5>{key}</h5>
                 ))}</div>
+                <p><span className="cred_highlight">Credibility</span>: {this.state.newspicked[this.state.n].credibility}</p>
                 <p>Explanation: {this.state.newspicked[this.state.n].explain}</p>
               </div>
               <div className={"btns"}>
