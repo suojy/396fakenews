@@ -29,6 +29,14 @@ Here are some tips and suggestions for spotting fake news:
 [Section1 /]
 [/div]
 
+[div className:"sectionsenti"]
+###### Where are the wrong places?
+[div className:"section2_des"]
+
+[/div]
+[sectionsenti /]
+[/div]
+
 [div className:"section2"]
 ###### what can we get from the fake news dataset?
 [div className:"section2_des"]
@@ -40,7 +48,6 @@ See? Rarely can you find any positive news, right? Even neutral news are not tha
 
 It's important to keep skeptical and critical when reading eye-catching news when related special and important events are undergoing. 
 
- 
 [/div]
 [sectiontwo /]
 [/div]
@@ -57,6 +64,7 @@ The real point of this section is to remind you that fake news relies on evoking
 There's no basic steps or important tips to play this little game. Please, just follow the narrator and enjoy generating fake news.
 [/div]
 [sectionthree /]
+[/div]
 
 [div className:"section4"]
 ###### Conclusion
@@ -71,6 +79,4 @@ Here's our final advice for you to spot them and we believe that you have at lea
 
 
 [/div]
-[/div]
-
 [/div]
