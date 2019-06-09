@@ -643,6 +643,7 @@ h1 {
 .keywords {
   display: flex;
   justify-content: flex-start;
+  flex-wrap: wrap;
 }
 .keywords h5 {
   background-color: #fffe54;
