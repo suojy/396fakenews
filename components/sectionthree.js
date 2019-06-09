@@ -63,7 +63,11 @@ class Section3 extends React.Component {
           id: 8,
           content: "Ha you just want to have some fun right? What about SNL?",
           choice: [
-            { toid: 9, mess: "Say SNL knows the election result in advance!", cred: "5" }
+            {
+              toid: 9,
+              mess: "Say SNL knows some internal intelligence!",
+              cred: "5"
+            }
           ]
         },
         {
@@ -80,7 +84,9 @@ class Section3 extends React.Component {
         {
           id: 10,
           content: "Something about Amish supporting him?",
-          choice: [{ toid: 15, mess: "Guess I don't have a choice",cred: "10" }]
+          choice: [
+            { toid: 15, mess: "Guess I don't have a choice", cred: "10" }
+          ]
         },
         {
           id: 11,
@@ -90,7 +96,13 @@ class Section3 extends React.Component {
         {
           id: 12,
           content: "Wanna make the news eye-catching?",
-          choice: [{ toid: 13, mess: "For sure! Add some words like Boom! ",cred: "10" }]
+          choice: [
+            {
+              toid: 13,
+              mess: "For sure! Add some words like Boom! ",
+              cred: "10"
+            }
+          ]
         },
         {
           id: 13,
@@ -106,7 +118,7 @@ class Section3 extends React.Component {
         {
           id: 14,
           type: "fn",
-          
+
           about: "trump",
           title:
             "This Election is Not About Trump, Its about a Giant Middle Finger to Washington DC.",
@@ -128,7 +140,7 @@ class Section3 extends React.Component {
         },
         {
           id: 16,
-          
+
           content:
             "What about posting something about her health situation to defend her?",
           choice: [
@@ -136,14 +148,20 @@ class Section3 extends React.Component {
               toid: 19,
               mess:
                 "Right, fake news can sometimes do something good! And I want to be gentle.",
-                cred: "10"
+              cred: "10"
             }
           ]
         },
         {
           id: 17,
           content: "Wanna make the news eye-catching?",
-          choice: [{ toid: 18, mess: "For sure! Add some words like Boom! ",cred: "10" }]
+          choice: [
+            {
+              toid: 18,
+              mess: "For sure! Add some words like Boom! ",
+              cred: "10"
+            }
+          ]
         },
         {
           id: 18,
@@ -192,19 +210,18 @@ class Section3 extends React.Component {
         else this.setState({ nowvalue: this.state.nowvalue - Number(c.cred) });
       }
     }
-    if(this.state.nowvalue == 0){
+    if (this.state.nowvalue == 0) {
       this.setState({ message: "You are freezed!" });
-    }else{
+    } else {
       this.setState({ nowat: id });
     }
-    
   }
   render() {
     const { hasError, idyll, updateProps, ...props } = this.props;
     return (
       <div {...props} className={"section3-container"}>
         <div className={"score"}>
-          <h2 style={{fontSize: "2.5rem"}}>{this.state.message}</h2>
+          <h2 style={{ fontSize: "2.5rem" }}>{this.state.message}</h2>
           <h2 style={{ color: "#E93D58" }}>Credibility</h2>
           <ReactSpeedometer
             startColor={"#E93D58"}

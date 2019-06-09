@@ -16,10 +16,18 @@ class SentimentSect extends React.Component {
             Find Me all The Wrong Places
           </button>
         </div>
-        <div className={this.state.show ? "description showtooltip": "description"}>
+
+        <div
+          className={
+            this.state.show ? "description showtooltip" : "description"
+          }
+        >
           <p>
-            Words with <span className={"word_highlight"}>red background</span> meaning bad sentiment or opinion words
-            which is not objective.
+            Words with <span className={"word_highlight"}>red background</span>{" "}
+            means bad sentiment or opinion words which is not objective. Words
+            in <span className={"comment_highlight"}>yellow backgroung </span>{" "}
+            means they are problematic and explaination is attached in next to
+            it. Check them out and see if you are right and careful enough!
           </p>
         </div>
         <div className={this.state.show ? "tooltip showtooltip" : "tooltip"}>
@@ -35,9 +43,8 @@ class SentimentSect extends React.Component {
         >
           <p>
             {" "}
-            This part has a hyperlink to NBC news, which is real. Because this
-            event actually happened. Yet the second part was added by
-            themselves.{" "}
+            This part is real since this event actually happened. Yet the second
+            part was added by themselves.{" "}
           </p>
         </div>
         <div
@@ -46,8 +53,8 @@ class SentimentSect extends React.Component {
           }
         >
           <p>
-            “NBC added” is actually “21st century wire editor added”, which
-            makes this news not true anymore.
+            “NBC added” is actually “21st century wire editors added to satisfy
+            their own goal and opinion”, which makes this news not true anymore.
           </p>
         </div>
         <div
@@ -55,7 +62,7 @@ class SentimentSect extends React.Component {
             this.state.show ? "tooltip four showtooltip" : "tooltip four"
           }
         >
-          <p>Things happened in Cornell is true, but not Yale. </p>
+          <p>Things happened in Cornell is true, but not Yale.</p>
         </div>
         <div className={"sentimentsent-container"}>
           <h4>
@@ -152,8 +159,7 @@ class SentimentSect extends React.Component {
             <span className={this.state.show ? "word_highlight" : "normal"}>
               ridiculous
             </span>{" "}
-            liberal reaction and student meltdown to Trump’s surprise
-            victory:[Video]
+            liberal reaction and student meltdown to Trump’s surprise victory
           </p>
         </div>
       </div>

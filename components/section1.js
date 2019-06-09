@@ -12,34 +12,42 @@ class Section1 extends React.Component {
       news: [
         {
           title:
-            "WikiLeaks: Hillary Clinton knew Saudi, Qatar were funding ISIS – but still took their money for Foundation",
+            "Post-Trump Liberal Meltdown: Counseling, Cry-ins, Therapy Dogs and Poetry",
           article:
-            " This should be the biggest revelation yet from WikiLeaks already epic email trove. Will the US media cover this story?\\r\\n Last night, in an RT Exclusive interview conducted by award-winning filmmaker John Pilger, WikiLeaks editor and founder Julian Assange described what he believes is “the most significant email in the whole collection.”  WikiLeaks reveals an early 2014 email where the outgoing Secretary of State Hillary Clinton was urging John Podesta , then advisor to President Barack Obama, to “bring pressure” on Gulf states Saudi Arabia and Qatar, “which are providing clandestine financial and logistic support to ISIL [Islamic State, IS, ISIS] and other radical Sunni groups.” \n This constitutes proof that the Clinton Foundation knowingly accepting millions of dollars in ‘charitable’ donations from the same Gulf states which both Secretary Clinton and President Obama knew were funding ISIS, Al Nusra Front (al Qaeda in Syria) and known takfiri terrorist fighting organizations. \n In addition, the Clinton’s Foundation took money from a number of other gulf monarchies: \n This latest news validates what 21WIRE has been saying since the ‘ISIS crisis’ began in June 2014. \n According to FOX News , FBI sources have said that ‘indictments are likely’ for the Clinton Foundation investigation. One only wonders how this latest Assange revelation will factor into the wider investigation – as it goes right to the heart of the national security and foreign policy – two things which Clinton trades heavily on in her campaigning. \n Assange went on to explain the deep ramifications of this latest criminal allegation against Clinton and her family foundation: \n “All serious analysts know, and even the US government has agreed, that some Saudi figures have been supporting ISIS and funding ISIS, but the dodge has always been that it is some “rogue” princes using their oil money to do whatever they like, but actually the government disapproves. But that email says that it is the government of Saudi Arabia, and the government of Qatar that have been funding ISIS.” \n During their 25-minute interview filmed at the Ecuadorian Embassy in London, Assange and Pilger discussed the obvious conflict of interest between Clinton as Secretary of State, the Clinton Foundation and Gulf monarchies who financed them. The following is an excerpt from the interview transcript: \n  John Pilger: The Saudis, the Qataris, the Moroccans, the Bahrainis, particularly the first two, are giving all this money to the Clinton Foundation, while Hillary Clinton is secretary of state, and the State Department is approving massive arms sales, particularly Saudi Arabia. \n Julian Assange: Under Hillary Clinton – and the Clinton emails reveal a significant discussion of it – the biggest-ever arms deal in the world was made with Saudi Arabia: more than $80 billion. During her tenure, the total arms exports from the US doubled in dollar value. ",
+            "You can imagine how nations like China and Russia are now laughing at US students as mass psychological trauma has apparently set-in across liberal America. Schools, universitiesand political institutions across the country are now offering various services following Republican Donald Trump’s insurgent  victory in the US presidential election. \n\n  Therapy Dogs included two golden doodles, two American Eskimo dogs, and a beagle mix – walked around the offices of the House of Representatives. Students at Cornell University even staged a “cry-in” on campus the day after the election.  \n\n Other US campuses were organizing various theraputic activities like poetry readings, where “healthy snacks will be served.” \n\n The dogs were organized by NGOs the Human Animal Bond Research Initiative, Pet Partners, the Pet Leadership Council and the Pet Industry Joint Advisory Council. \n\n Their press release says that Democratic Party staffers needed, “the help of a non-judgmental, furry, four-legged best friend that enjoys bipartisan support.” \n\n “Organizers say it was a great way for workers to blow off steam especially for those whose bosses may have lost re-election bids,” NBC added. \n\n Also,“cry-ins” were staged on the campus of Cornell University, and Yale University even staged a “group scream” in order to help student vent their “internalized stress” the day after the election. \n\n Watch RT America’s Ed Schultz and Lionel, of Lionel Media, discuss the ridiculous liberal reaction and student meltdown to Trump’s surprise victory.",
           source: "www.21stcenturywire.com",
           answer: "false",
           id: 0,
           keywords: [
-            "WikiLeaks",
-            "excerpt",
-            "ramifications",
-            "allegation",
-            "rogue"
+            "distraught ",
+            "vulnerabilities",
+            "needed",
+            "trauma",
+            "ridiculous"
           ],
           credibility: "3/5",
           explain:
             "21stcenturywire.com is an unreliable site. Note that sourecs are named but the stories are not found on the source websites. "
         },
         {
-          title: "Apple Adds ‘Alt-Right’ Key To Its Computer Keyboards ",
+          title:
+            "Hillary Clinton Supporters Now Calling for a Recount of Votes in Battleground States ",
           article:
-            "CUPERTINO, California ( The Adobo Chronicles, San Jose Bureau) – Technology giant Apple is known for its innovation and for constantly reinventing itself and its products. This strategy has spelled the company’s tremendous success across the globe.  \n Occasionally, Apple immerses itself in politics and the current political atmosphere following the election of Donald Trump as the 45th U.S. president is one of those times. \n By now, the term Alt-Right (Alternative Right) has become a familiar phrase especially on social media. \n The Alternative Right, commonly known as the Alt-Right, is a set of far-right ideologies, groups and individuals whose core belief is that “white identity” is under attack by multicultural forces using “political correctness” and “social justice” to undermine white people and “their” civilization. Characterized by heavy use of social media and online memes, Alt-Righters eschew “establishment” conservatism, skew young, and embrace white ethno-nationalism as a fundamental value. \n In keeping up with this new political atmosphere, Apple has just announced that it will be replacing all keyboards on its desktops, laptops, iPhones and iPads with a new design that adds the “Alt-Right” key. The key will be located in the lowermost right corner of the keyboard. How appropriate \n Apple CEO Tim Cook said that the addition of this all-important key will enable those who subscribe to the Alternative Right ideologies (and idiosyncrasies) to identify themselves when sending emails, texts or posting on social media. Hitting the “Alt-Right” key will automatically add the hashtag #AlternativeRight to whatever a person is typing on the keyboard. \n Welcome to the 22nd century! ",
-          source: "www.adobochronicles.com",
+            "“The person who received the most votes free from interference or tampering needs to be in the White House. It may well be Donald J. Trump, but further due diligence is required to ensure that American democracy is not threatened. \n\n 21st Century Wire says…   \n\n Although the election was called on Nov 8th, the Democratic Party’s ongoing campaign to delegitimize the new incoming President is still ongoing.    \n\n For those of us with long enough memories, the Democratic Party, their media operatives and the Clinton Campaign were claiming that Trump and the GOP would be engaged in this very same behavior after Hillary Clinton won the Presidency (as expected).  \n\n Notice how the shoe is now on the other foot.  \n\n It’s interesting reading past stories by ‘news’ sources linked to the Clinton Campaign and John Podesta as Politico has, who ran a feature on Aug 16th entitled, “Why the GOP Will Never Accept President Hillary Clinton” which lays out the case of Hillary’s lock on the White House and how the evil Republicans will not accept her eventual election victory.  \n\n “Will Donald Trump respect the peaceful transition of power?” howled CNN’s Wolf Blitzer in the run-up to the election. The question now is: will the Democrats respect the result, and simply “Move On,” as they say?  \n\n Of course, we now know that ‘journalists’ like Wolf at CNN were getting their talking points directly the Clinton Campaign .  \n\n As it turns out, the only thing illegitimate about the 2016 Election… was the mainstream corporate media.  \n\n More form the Guardian…  \n\n The Guardian  \n\n A growing number of academics and activists are calling for US authorities to fully audit or recount the 2016 presidential election vote in key battleground states, in case the results could have been skewed by foreign hackers.  \n\n The loose coalition, which is urging Hillary Clinton’s campaign to join its fight, is preparing to deliver a report detailing its concerns to congressional committee chairs and federal authorities early next week, according to two people involved.  \n\n The document, which is currently 18 pages long, focuses on concerns about the results in the states of Michigan, Pennsylvania and Wisconsin. \n\n “I’m interested in verifying the vote,” said Dr Barbara Simons, an adviser to the US election assistance commission and expert on electronic voting. “We need to have post-election ballot audits.” Simons is understood to have contributed analysis to the effort but declined to characterise the precise nature of her involvement. \n\n A second group of analysts, led by the National Voting Rights Institute founder John Bonifaz and Professor Alex Halderman, the director of the University of Michigan’s center for computer security and society, is also taking part in the push for a review, and has been in contact with Simons.  \n\n In a blogpost early on Wednesday, Halderman said paper ballots and voting equipment should be examined in Wisconsin, Michigan, and Pennsylvania, warning that deadlines were rapidly approaching.  \n\n “Unfortunately, nobody is ever going to examine that evidence unless candidates in those states act now, in the next several days, to petition for recounts,” he said. \n\n The developments follow Clinton’s surprise defeat to Donald Trump in the 8 November vote, and come after US intelligence authorities released public assessments that Russian hackers were behind intrusions into regional electoral computer systems and the theft of emails from Democratic officials before the election… ",
+          source: "www.21stcenturywire.com",
           answer: "false",
           id: 1,
-          keywords: ["tremendous", "attack", "eschew"],
-          credibility: "2/5",
+          keywords: [
+            "interference",
+            "tampering needs",
+            "is required to ensure",
+            "illegitimate",
+            "declined to characterise",
+            "intrusions"
+          ],
+          credibility: "3/5",
           explain:
-            "adobochronicles.com is a satire site. Such big and controversial change, if true, should be announced ny Apple rather than this kind of website right?"
+            "21stcenturywire.com is an unreliable site. Note that sourecs are named but the stories are not found on the source websites. "
         },
         {
           title:
@@ -121,7 +129,7 @@ class Section1 extends React.Component {
           source: "www.bbc.com",
           answer: "true",
           id: 8,
-          keywords: ["collaborating","talented"],
+          keywords: ["collaborating", "talented"],
           credibility: "5/5",
           explain: "BBC News is reliable."
         },
@@ -245,13 +253,21 @@ class Section1 extends React.Component {
               <div className={"answertrue"}>Correct</div>
               <div>
                 <h5>Source:{this.state.newspicked[this.state.n].source}</h5>
-                <h5 style={{margin:0, fontStyle:"italic"}}>Pay attention to these words:</h5>
+                <h5 style={{ margin: 0, fontStyle: "italic" }}>
+                  Pay attention to these words:
+                </h5>
                 <div className={"keywords"}>
-                {this.state.newspicked[this.state.n].keywords.map(key=>(
-                  <h5>{key}</h5>
-                ))}</div>
-                <p><span className="cred_highlight">Credibility</span>: {this.state.newspicked[this.state.n].credibility}</p>
-                <p>Explanation: {this.state.newspicked[this.state.n].explain}</p>
+                  {this.state.newspicked[this.state.n].keywords.map(key => (
+                    <h5>{key}</h5>
+                  ))}
+                </div>
+                <p>
+                  <span className="cred_highlight">Credibility</span>:{" "}
+                  {this.state.newspicked[this.state.n].credibility}
+                </p>
+                <p>
+                  Explanation: {this.state.newspicked[this.state.n].explain}
+                </p>
               </div>
               <div className={"btns"}>
                 {this.state.n === 4 ? (
@@ -278,13 +294,21 @@ class Section1 extends React.Component {
               <div className={"answerfalse"}>Wrong</div>
               <div>
                 <h5>Source:{this.state.newspicked[this.state.n].source}</h5>
-                <h5 style={{margin:0, fontStyle:"italic"}}>Pay attention to these words:</h5>
+                <h5 style={{ margin: 0, fontStyle: "italic" }}>
+                  Pay attention to these words:
+                </h5>
                 <div className={"keywords"}>
-                {this.state.newspicked[this.state.n].keywords.map(key=>(
-                  <h5>{key}</h5>
-                ))}</div>
-                <p><span className="cred_highlight">Credibility</span>: {this.state.newspicked[this.state.n].credibility}</p>
-                <p>Explanation: {this.state.newspicked[this.state.n].explain}</p>
+                  {this.state.newspicked[this.state.n].keywords.map(key => (
+                    <h5>{key}</h5>
+                  ))}
+                </div>
+                <p>
+                  <span className="cred_highlight">Credibility</span>:{" "}
+                  {this.state.newspicked[this.state.n].credibility}
+                </p>
+                <p>
+                  Explanation: {this.state.newspicked[this.state.n].explain}
+                </p>
               </div>
               <div className={"btns"}>
                 {this.state.n === 4 ? (
