@@ -26,7 +26,7 @@ class SentimentSect extends React.Component {
             Words with <span className={"word_highlight"}>red background</span>{" "}
             means bad sentiment or opinion words which is not objective. Words
             in <span className={"comment_highlight"}>yellow background </span>{" "}
-            means they are problematic and explaination is attached in next to
+            means they are problematic and explanation is attached in next to
             it. Check them out and see if you are right and careful enough!
           </p>
         </div>
