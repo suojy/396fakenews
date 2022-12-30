@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "d3": "^4.0.0",
-    "idyll": "^4.0.0",
+    "idyll": "^6.0.0-alpha.6",
     "idyll-d3-component": "^2.0.0",
     "react-d3-speedometer": "^0.5.5",
     "react-gauge-chart": "^0.1.7",
